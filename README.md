@@ -8,3 +8,7 @@ On the game board, '@' is a ship that has not been hit, '-' is a space that has 
 **Purpose:** To recreate the classic game battleship where users place their ships on a grid board and then fire at their opponents to sink all their battleships.
 **What did you do?** 
 I completed the battleship application which can be viewed in a separate repositiory. This involved the use of switch statements for input validation, along with plenty of data type conversions such as str->int, a nested do-while loop to count the remaining number of ships represented by the '@' character in a multi-dimensional char[][] array, use of the split function to split a string into an array that will be used as the location board for ships as well as the target tracking board to keep track of user hits and misses on the 5 x 5 playing grid. The highest dimenisional array used here was a 3 dimensional char array used to store both players' game boards.
+
+*Rules*
+1. Enter coordinates as number 0-4 seperated by a space. For example: 4 4 
+2. Loser does 5 push-ups.
