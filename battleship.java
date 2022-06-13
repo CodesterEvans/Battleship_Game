@@ -1,3 +1,5 @@
+
+
 import java.util.*;
 import java.io.*;
 
@@ -51,7 +53,7 @@ public class Battleship {
     
 public static char[][] enterCoordinates(String playerName, char[][] player) {
         
-        System.out.printf("%s: ENTER YOUR SHIPS' COORDINATES.\n",playerName);
+        System.out.printf("%s: ENTER YOUR SHIPS' COORDINATES 0-4 separated by a space. Ex: 0 4 \n",playerName);
         //Enter ship 1 location:
         for (int index = 1 ; index < 6; index++) {
             
